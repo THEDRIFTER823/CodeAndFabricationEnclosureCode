@@ -88,7 +88,7 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 int duration = 100;
-const int s = 5;
+const int s = 10;
 
 void Short() {
   digitalWrite(10, HIGH);

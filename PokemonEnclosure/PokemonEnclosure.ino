@@ -130,7 +130,7 @@ void runScene4()
 
 void runScene5()
 {
-  if (analogRead(scene5PhotoPin) > 5)
+  if (analogRead(scene5PhotoPin) > 50)
   {
     scene4Servo.write(90);
     tone(s, NOTE_G4);

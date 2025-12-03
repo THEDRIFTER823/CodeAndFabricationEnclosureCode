@@ -1,3 +1,4 @@
+// libraries for servo and the piezo notes
 #include <Servo.h>
 #include "tone.h"
 int switchPins[5] = {2, 4, 6, 8, 2};

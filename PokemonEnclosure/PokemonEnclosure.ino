@@ -1,13 +1,17 @@
 // libraries for servo and the piezo notes
 #include <Servo.h>
 #include "tone.h"
+
+// array for the switches
 int switchPins[5] = {2, 4, 6, 8, 2};
-int servoPins[5] = {13, 0, 0, 0};
+// int servoPins[5] = {13, 0, 0, 0};
 // const int scene3LEDPin = 
 // const int scene4LEDPin = 
+// pins for piezo and photoresistor
 const int scene5PiezoPin = 10;
 const int scene5PhotoPin = A5;
 
+// Defining the servos
 Servo scene1Servo;
 Servo scene2Servo;
 Servo scene3Servo;

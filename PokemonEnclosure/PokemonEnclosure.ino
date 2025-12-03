@@ -18,12 +18,14 @@ Servo scene3Servo;
 Servo scene4Servo;
 Servo servos[4] = (scene1Servo, scene2Servo, scene3Servo, scene4Servo);
 
+// Defining booleans for scene completion
 bool scene1Complete = false;
 bool scene2Complete = false;
 bool scene3Complete = false;
 bool scene4Complete = false;
 bool scene5Complete = false;
 
+// Setting state checker
 int prevState = 0;
 
 void setup() {
@@ -36,6 +38,8 @@ void setup() {
   // pinMode(scene3LEDPin, OUTPUT);
   // pinMode(scene4LEDPin, OUTPUT);
   // pinMode(scene5PiezoPin, OUTPUT);
+
+  // attaching all the pins and setting all the servos
   pinMode(8, INPUT);
   pinMode(10, OUTPUT);
   scene1Servo.attach(3);

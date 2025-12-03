@@ -390,6 +390,3 @@ void runScene5()
   }
   prevState = digitalRead(switchPins[4]);
 }
-//fjkhkhfkhadfkahfkjdfhsdkjghfaks blahc hi mom
-//I ADDED THIS COMMENT 
-//hi mom

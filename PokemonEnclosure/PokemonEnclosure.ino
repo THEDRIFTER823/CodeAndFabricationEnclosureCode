@@ -45,8 +45,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //Serial.println(digitalRead(switchPins[0]));
-  Serial.println(analogRead(scene5PhotoPin));
+  Serial.println(digitalRead(switchPins[2]));
+  //Serial.println(analogRead(scene5PhotoPin));
   if (!scene1Complete)
   {
     runScene1();
@@ -392,3 +392,4 @@ void runScene5()
 }
 //fjkhkhfkhadfkahfkjdfhsdkjghfaks blahc hi mom
 //I ADDED THIS COMMENT 
+//hi mom

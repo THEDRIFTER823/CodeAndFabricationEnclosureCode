@@ -56,6 +56,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   Serial.println(digitalRead(switchPins[2]));
   //Serial.println(analogRead(scene5PhotoPin));
+  // Checks for scene completion; runs scene if false
   if (!scene1Complete)
   {
     runScene1();
